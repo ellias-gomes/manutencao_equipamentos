@@ -33,3 +33,27 @@ O projeto utiliza uma arquitetura separada entre front-end (painel interativo) e
 4. Inicie o servidor:
    ```bash
    node index.js
+   ```
+### 2. Configurando o Front-end (Python/Streamlit)
+Navegue até a pasta do front-end.
+
+Crie um ambiente virtual (opcional, mas recomendado):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # No Windows use: venv\Scripts\activate
+```
+
+Instale as bibliotecas necessárias:
+
+```bash
+pip install streamlit requests pandas
+Execute a aplicação:
+
+```bash
+streamlit run app.py
+```
+
+
+## 👨‍💻 Autoria
+Desenvolvido como parte do Projeto Integrador do curso de Engenharia da Computação por Ellias Gomes.
