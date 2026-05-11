@@ -48,6 +48,8 @@ Instale as bibliotecas necessárias:
 
 ```bash
 pip install streamlit requests pandas
+```
+
 Execute a aplicação:
 
 ```bash
